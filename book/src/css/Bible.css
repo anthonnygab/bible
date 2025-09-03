@@ -1,0 +1,208 @@
+.bibleBooks {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-image: url("../../public//assets//picture/bat.png");
+  background-size: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.oldBooks h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+#antigoTestamento {
+    color: white;
+}
+
+.booksName {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.booksName tr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.booksName td {
+  list-style: none;
+}
+
+.bibleOldBooks {
+  display: inline-block;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  text-align: center;
+}
+
+#gen, #ex, #lev, #num, #deut {
+    background-color: #8D6E63;
+    color: white;
+}
+
+#gen:hover, #ex:hover, #lev:hover, #num:hover, #deut:hover {
+    background-color: #5D4037;
+}
+
+#jos, #jui, #rut, #ISamuel, #IISamuel, #IReis, #IIReis, #ICro, #IICro, #esd, #neem, #est {
+    background-color: #FBC02D;
+    color: white;
+}
+
+#jos:hover, #jui:hover, #rut:hover, #ISamuel:hover, #IISamuel:hover, #IReis:hover, #IIReis:hover, #ICro:hover, #IICro:hover, #esd:hover, #neem:hover, #est:hover {
+    background-color: #F57F17;
+}
+
+#jo, #sal, #prov, #ecl, #cc {
+    background-color: #5C6BC0;
+    color: white;
+}
+
+#jo:hover, #sal:hover, #prov:hover, #ecl:hover, #cc:hover {
+    background-color: #3949AB;
+}
+
+#isa, #jer, #lam, #ezeq, #dan, #ose, #joe, #amo, #oba, #jon, #miq, #nau, #hab, #sof, #age, #zaq, #mala {
+    background-color: #E53935;
+    color: white;
+}
+
+#isa:hover, #jer:hover, #lam:hover, #ezeq:hover, #dan:hover, #ose:hover, #joe:hover, #amo:hover, #oba:hover, #jon:hover, #miq:hover, #nau:hover, #hab:hover, #sof:hover, #age:hover, #zaq:hover, #mala:hover {
+    background-color: #B71C1C;
+}
+
+.bibleOldBooks:active {
+  transform: scale(0.97);
+}
+
+
+@media (max-width: 768px) {
+  .bibleOldBooks {
+    min-width: 100px;
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bibleBooks {
+    padding: 15px;
+  }
+  .oldBooks h2 {
+    font-size: 1.5rem;
+  }
+  .booksName tr {
+    gap: 8px;
+  }
+  .bibleOldBooks {
+    min-width: 90px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+
+.bibleNewBooks {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-image: url("../../public//assets//picture/bnt.png");
+  background-size: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.newBooks h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.booksName {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.booksName tr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.booksName td {
+  list-style: none;
+}
+
+.booksName td a {
+  display: inline-block;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  text-align: center;
+  color: white;
+}
+
+/* Evangelhos */
+.evangelhos td a {
+  background-color: #3B82F6; /* verde esperança */
+}
+.evangelhos td a:hover {
+  background-color: #1E40AF;
+}
+
+/* Cartas */
+.cartas td a {
+  background-color: #7C3AED; /* azul ensinamentos */
+}
+.cartas td a:hover {
+  background-color: #4C1D95;
+}
+
+/* Revelação */
+.relevation td a {
+  background-color: #DC2626; /* roxo apocalipse */
+}
+.relevation td a:hover {
+  background-color: #7F1D1D;
+}
+
+/* Clique efeito */
+.booksName td a:active {
+  transform: scale(0.97);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .booksName td a {
+    min-width: 100px;
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bibleNewBooks {
+    padding: 15px;
+  }
+}
